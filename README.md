@@ -22,7 +22,15 @@ This repository contains a simple HTML file used to demonstrate the integration 
    **Example Commit Message:**  
 This commit message includes a Jira issue key (`TEST-1`) to link the commit to a corresponding Jira issue.
 4. **Check Jira:**  
-After pushing your changes, open the relevant Jira issue to see the commit details in the development panel.
+After pushing your changes, open the relevant Jira issue to see the commit details in the development panel in Jira.
+
+If you want to see a specific commit from github repository in Jira by its key, you can use this url template:
+
+```
+https://yourdomain.atlassian.net/browse/[jira-issue-code]
+
+```
+Specify [jira-issue-code] from github commit
 
 ## Key Features
 
